@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
     }
     private void addMoney(){
         p_money_ammount++;
+        p_money_ammount *= p_money_multiplier;
         money_ammount_text.setText(String.valueOf(p_money_ammount));
     }
 }
